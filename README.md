@@ -13,7 +13,7 @@
 # 0.准备：使用vue-cli创建一个脚手架项目，并安装所需依赖包
   vue init webpack multiPageDemo
   cnpm install 
-# 1.新建了一个one.html和two.html，及其与之对应的vue文件和js文件
+# 1.新建了一个admin.html和test.html，及其与之对应的vue文件和js文件
 # 2.打开\build\webpack.base.conf.js文件，在module.exports属性中，找到entry，配置多个入口
   entry: {
     app: './src/main.js',
