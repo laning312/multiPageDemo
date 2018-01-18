@@ -1,11 +1,10 @@
 # multi-page-demo
 
-> A Vue.js project
-
-## Build Setup
+> vue不止可以做单页面，它还可以做多页面，如果要做多页面的话需要对他的依赖，也就是webpack就是重新配置才可以。
+### 配置过程如下：
 
 ``` bash
-# install dependencies
+# 新建了一个one.html和two.html，及其与之对应的vue文件和js文件
 npm install
 
 # serve with hot reload at localhost:8080
