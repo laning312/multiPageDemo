@@ -1,18 +1,18 @@
 # multi-page-demo
 
 > vue不止可以做单页面，它还可以做多页面，如果要做多页面的话需要对他的依赖，webpack需重新配置才可以。这是一个已经配置多页面的示例。
-### 项目准备
+### 运行项目
 ``` bash
-# 使用vue-cli创建项目
-  vue init webpack multiPageDemo
 # 安装项目依赖包
   cnpm install
 # 运行测试
   npm run dev
 ```
-### 具体配置过程如下：
-
+### 具体配置过程解释如下：
 ``` bash
+# 0.准备：使用vue-cli创建一个脚手架项目，并安装所需依赖包
+  vue init webpack multiPageDemo
+  cnpm install 
 # 1.新建了一个one.html和two.html，及其与之对应的vue文件和js文件
 # 2.打开\build\webpack.base.conf.js文件，在module.exports属性中，找到entry，配置多个入口
   entry: {
